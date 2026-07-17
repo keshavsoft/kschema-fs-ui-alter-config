@@ -1,4 +1,5 @@
 import getConfig from "./getConfig.js";
+import getAllJsons from "./getAllJsons.js";
 
 const startFunc = ({ toPath, configPath, inTargetPath, showLog = true,
     inPort, inAction
@@ -8,6 +9,11 @@ const startFunc = ({ toPath, configPath, inTargetPath, showLog = true,
         case "Crud":
 
             const columnsConfig = getConfig({ configPath });
+
+
+            // Usage
+            const jsonPaths = getJsonFiles(toPath);
+            console.log(jsonPaths);
 
             break;
 
