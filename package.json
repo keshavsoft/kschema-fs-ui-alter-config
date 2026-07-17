@@ -1,7 +1,7 @@
 {
   "name": "kschema-fs-ui-alter-config",
-  "version": "1.9.2",
-  "description": "create rest client to test from http file, config supplied",
+  "version": "1.2.2",
+  "description": "find the json files in ui, and insert column config",
   "keywords": [
     "cli",
     "scaffold",
