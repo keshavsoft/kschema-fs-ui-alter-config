@@ -1,4 +1,4 @@
-import configJson from "./configs/showAll.json" with { type: "json" };
+import configJson from "./configs/verticalConfig.json" with { type: "json" };
 
 export const getKSTableConfig = async () => {
     return structuredClone(configJson);
