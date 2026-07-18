@@ -5,7 +5,7 @@ const startFunc = ({ toPath, sacredWisdom, inAction }) => {
     switch (inAction) {
         case "Crud":
             const hiddenGems = scoutTheRealmForTargetJsons(toPath);
-            transmuteGemsWithWisdom({ gems: hiddenGems, wisdom: sacredWisdom });
+            transmuteGemsWithWisdom({ gems: hiddenGems, wisdom: sacredWisdom?.columnsConfig });
             break;
         default:
             break;
