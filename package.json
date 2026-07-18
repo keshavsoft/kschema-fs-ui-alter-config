@@ -1,6 +1,6 @@
 {
   "name": "kschema-fs-ui-alter-config",
-  "version": "1.3.2",
+  "version": "1.5.1",
   "description": "find the json files in ui, and insert column config",
   "keywords": [
     "cli",
@@ -9,7 +9,9 @@
     "node",
     "project-generator"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "kschema-fs-read-config": "^1.4.8"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js"
